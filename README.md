@@ -1,72 +1,229 @@
-# ⚓ Project: Ship Hull Underwater Cleaning Operation
+# ⚓ Below the Waterline --- Why Ships Need Cleaning
 
-> **The Logic:** A ship is "Floating Hardware." Cleaning the bottom keeps it from slowing down, crashing, or breaking.
+> **A ship may look perfectly fine from the deck. The interesting part
+> is what you can't see underneath.**
 
----
+Ships spend a lot of time sitting in seawater.
 
-## 📜 Safety Code (The "Pre-Flight" Check)
+And seawater doesn't exactly leave them alone. 😂
 
-* **LOTO (Pre-Op):** **Lock Out, Tag Out.** This is Step Zero. Engines and thrusters must be physically locked and tagged "DO NOT START." If the hardware starts, the diver is gone.
-* **Diver Flag:** The **Alpha Flag** (Blue & White) must be hoisted to tell other ships to stay away and slow down.
+Over time, marine growth can build up on the hull and other underwater
+parts.
 
----
+That raises a simple question:
 
-## 🕹️ The 5-Step Cleaning System (Performance)
+> ## **What happens when the bottom of a ship gets dirty --- and what can maintenance data tell us about it?**
 
-| Step | Item | Logic |
-| :--- | :--- | :--- |
-| **01** | **CCTV (Pre)** | **The Scan:** Cameras find the marine fouling before starting. |
-| **02** | **Brush Kart** | **The Clean:** A vacuum spinning scrubber kart that sticks to the ship to remove barnacles and slime. |
-| **03** | **Scraper** | **The Detail:** Hand tools for tight spots the kart can't reach. |
-| **04** | **Polisher** | **The Smooth:** Buffs propeller blades like a mirror to save 20% fuel. |
-| **05** | **CCTV (Post)** | **The Audit:** Final video scan to prove the hull is clean and smooth. |
+------------------------------------------------------------------------
 
----
+## 🌊 What's Happening Under the Ship?
 
-## 🛠️ Extra Jobs: Hardware & Repair (Maintenance)
+Think about leaving something underwater for months.
 
-### 1. The Audit (Gauges)
-* **Gap Check:** Using tiny metal rulers (Gauges) to make sure parts haven't worn down or shifted.
+Eventually, things start growing on it.
 
-### 2. The Patch (Plugs)
-* **Hot-Swap:** Plugging a hole from the outside so a part can be replaced inside without the ship sinking.
+Ships deal with the same problem.
 
-### 3. The Dry Zone (Cofferdam)
-* **Water-Shield:** Fitting a big waterproof box to the hull to create a dry space for underwater welding.
+You may find:
 
----
+**Slime.**
 
-## ⚓ The "Hot-Swap" Logic (Plugs & Cofferdams)
+**Barnacles.**
 
-1. **Seal:** Diver fits the **Plug** or **Box** over the work area.
-2. **Drain:** Pump out the water to create a safe, dry seal.
-3. **Signal:** Diver knocks **1-2-3** to tell the crew: *"Safe to open!"*
-4. **Repair:** Fix the hardware while the ship stays in the water.
+**Other marine growth.**
 
----
+The more growth that builds up, the rougher the underwater surface can
+become.
 
-## 💡 Conclusion
+And pushing a rough surface through water isn't ideal.
 
-1. **Smooth is Fast:** A clean hull removes the "bugs" and "lag" from the ship's performance.
-2. **Safety is Binary:** There is no "Undo" button underwater. Either the LOTO is on and the flag is up, or the operation is a hard fail.
+Basically:
 
----
+> **The ship doesn't need extra passengers hanging onto the bottom for
+> free.** 😂
 
-### ⚠️ Disclaimer
-This document is for educational and research purposes only. Subsea operations are high-risk. Always follow official Class Society (ABS/DNV) rules and company-specific safety manuals. Incorrect use of these steps can lead to hardware failure or loss of life.
+------------------------------------------------------------------------
 
-### ✍️ Credits
-* **Research & Logic:** [Wansaidon]
-* **Structure & Drafting:** Gemini AI
+## 🧹 So Why Clean It?
 
----
+Hull cleaning helps remove unwanted marine growth.
 
-### 🐍 Python Version
-You can run this guide as a script in your terminal.
+The basic idea is simple:
 
-**Raw Script Link:**
-[Download ship_husbandry_logic.py (Raw)](ship_husbandry_logic.py)
+**Inspect → Clean → Check → Record**
 
----
+Before cleaning, the underwater condition can be checked.
 
-**[ END SCRIPT ]**
+The required cleaning is then carried out by trained professionals using
+suitable equipment and approved procedures.
+
+Afterwards, the condition can be checked again.
+
+That gives us something very useful:
+
+**Before and after information.**
+
+And that's where this becomes interesting from a data point of view.
+
+------------------------------------------------------------------------
+
+## 📊 What Could We Track?
+
+We could record simple information such as:
+
+**🚢 Vessel**\
+What type of ship is it?
+
+**📅 Last Cleaning**\
+How long has it been since the previous cleaning?
+
+**🌿 Marine Growth**\
+What was found on the hull?
+
+**📍 Area**\
+Where was the growth found?
+
+**⏱️ Cleaning Time**\
+How long did the job take?
+
+**🔍 Condition Before**\
+What did the inspection find?
+
+**✅ Condition After**\
+What changed after cleaning?
+
+**🔧 Other Findings**\
+Was anything unusual noticed during inspection?
+
+Nothing fancy.
+
+We're simply turning maintenance work into information we can study.
+
+------------------------------------------------------------------------
+
+## 🔍 What Can We Analyse?
+
+Once enough records are collected, we can start asking questions.
+
+**Do ships with heavier growth take longer to clean?**
+
+**Which underwater areas need attention most often?**
+
+**How does the time between cleanings relate to what is found?**
+
+**What problems appear most often during inspection?**
+
+**How much work is normally needed for different vessel types?**
+
+**Does the condition improve after cleaning?**
+
+And if suitable vessel-performance data is available:
+
+> **Can we see any change in performance before and after cleaning?**
+
+The important part is not deciding the answer first.
+
+**Check the data and see what it actually says.**
+
+------------------------------------------------------------------------
+
+## 🔧 Cleaning Isn't the Only Reason to Look Underwater
+
+Underwater inspection can also help identify things that may need
+further attention.
+
+That could include checking the condition of underwater parts or
+spotting possible damage.
+
+But finding something doesn't mean:
+
+> **"Okay bro, YouTube tutorial then repair."** 😂
+
+Underwater ship work is specialised work.
+
+The proper repair method depends on the vessel, the problem, approved
+procedures and the professionals responsible for the job.
+
+For this project, we're interested in the **information collected**, not
+teaching someone how to carry out the operation.
+
+------------------------------------------------------------------------
+
+## 🦺 What About Safety?
+
+This part is simple:
+
+> **Underwater ship work can be dangerous.**
+
+Real operations require trained personnel, proper planning,
+communication, equipment and approved safety procedures.
+
+This project doesn't try to replace any of that.
+
+It looks at the operation from another angle:
+
+**What can we learn from the records produced by the work?**
+
+------------------------------------------------------------------------
+
+# 🧠 The Whole Project in One Line
+
+**Ship enters water → Marine growth builds up → Hull gets inspected →
+Cleaning happens → Condition gets checked again → Data tells the story**
+
+Instead of simply saying:
+
+> **"The hull was dirty, so we cleaned it."**
+
+We can start asking:
+
+> **How dirty was it? Where? How long did cleaning take? What did we
+> find? What changed afterwards?**
+
+That's where ordinary maintenance records can become useful data.
+
+------------------------------------------------------------------------
+
+# ⚓ The Simple Idea
+
+Most people see the part of a ship above the water.
+
+This project looks at the part we normally don't see.
+
+Not to teach someone how to perform underwater work.
+
+But to understand:
+
+> ## **What is happening below the waterline, and what can the data teach us about maintaining a ship?**
+
+Because sometimes the part you can't see...
+
+**is the part worth looking at.**
+
+------------------------------------------------------------------------
+
+## 🐍 Python Version
+
+A simple Python file can be used to explore the maintenance data:
+
+[View `ship_husbandry_logic.py`](ship_husbandry_logic.py)
+
+------------------------------------------------------------------------
+
+## ⚠️ Disclaimer
+
+An educational and data project about underwater ship maintenance. It is
+not an operational or diving guide. Actual work must follow the vessel's
+approved procedures and the requirements of the responsible
+professionals and authorities.
+
+## ✍️ Credits
+
+**Idea & analysis:** Wansaidon\
+**Written with:** ChatGPT by OpenAI
+
+------------------------------------------------------------------------
+
+> **You can see the ship above the water.**
+
+***The data can help tell you what's happening underneath.***
