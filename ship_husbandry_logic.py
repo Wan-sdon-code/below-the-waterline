@@ -1,88 +1,68 @@
-# ship_husbandry_logic.py
-# Research & Logic: [Wansaidon]
-# Structure & Drafting: Gemini AI
+# ⚓ Below the Waterline
+# Simple Ship Hull Maintenance Analysis
+# Idea & analysis: Wansaidon
 
-class HullCleaningOperation:
-    """
-    Logic for underwater ship hull cleaning and maintenance.
-    A clean hull is fast; a dirty hull is 'Spaghetti Code'.
-    """
+print("⚓ BELOW THE WATERLINE")
+print("Ship Hull Maintenance Check")
+print("=" * 40)
 
-    def __init__(self, ship_name):
-        self.ship_name = ship_name
-        self.safety_verified = False
-        self.cleaning_complete = False
+# Example made-up maintenance data
+vessel = "Vessel A"
+days_since_cleaning = 180
+growth_level = "Heavy"
+cleaning_hours = 12
+condition_before = 4
+condition_after = 9
 
-    def pre_ops_safety_check(self):
-        """Step Zero: LOTO and Alpha Flag."""
-        print(f"--- PRE-OPS SAFETY CHECK: {self.ship_name} ---")
-        
-        # LOTO: Lock Out, Tag Out
-        loto_engaged = True 
-        print("[CHECK] LOTO: Engines and thrusters locked. Tagged 'DO NOT START'.")
-        
-        # Diver Flag: Alpha Flag
-        alpha_flag_hoisted = True
-        print("[CHECK] Alpha Flag: Hoisted. Nearby vessels signaled to stay clear.")
-        
-        if loto_engaged and alpha_flag_hoisted:
-            self.safety_verified = True
-            print("STATUS: Safety Code Verified. Diver is clear to enter the water.\n")
-        else:
-            raise Exception("SAFETY CRASH: Operation aborted. Safety protocols not met.")
+print("\n🚢 VESSEL")
+print(vessel)
 
-    def run_5_step_cleaning(self):
-        """The Performance System: 5 steps to save 20% fuel."""
-        if not self.safety_verified:
-            return "ERROR: Safety check required before cleaning."
+print("\n📊 MAINTENANCE RECORD")
+print(f"Days since last cleaning: {days_since_cleaning}")
+print(f"Marine growth: {growth_level}")
+print(f"Cleaning time: {cleaning_hours} hours")
 
-        steps = [
-            ("01", "CCTV (Pre)", "Scanning for marine fouling and damage."),
-            ("02", "Brush Kart", "Engaging vacuum spinning scrubber kart to remove barnacles/slime."),
-            ("03", "Scraper", "Detailing rudders and seachests by hand."),
-            ("04", "Polisher", "Buffing propeller blades to a mirror finish."),
-            ("05", "CCTV (Post)", "Final audit. Verifying hull is smooth and bug-free.")
-        ]
+print("\n🔍 CONDITION")
+print(f"Before cleaning: {condition_before}/10")
+print(f"After cleaning:  {condition_after}/10")
 
-        print(f"--- STARTING 5-STEP CLEANING SYSTEM ---")
-        for step_id, tool, logic in steps:
-            print(f"[{step_id}] {tool}: {logic}")
-        
-        self.cleaning_complete = True
-        print("STATUS: Cleaning Complete. Performance restored.\n")
+# Work out the improvement
+improvement = condition_after - condition_before
 
-    def perform_maintenance_audit(self, job_type="Gauges"):
-        """Extra Jobs: Hardware & Repair outside of cleaning."""
-        print(f"--- EXTRA JOB: {job_type} ---")
-        
-        if job_type == "Gauges":
-            print("[ACTION] Gap Check: Using tiny metal rulers to check for wear-down.")
-        
-        elif job_type == "Plugs" or job_type == "Cofferdam":
-            print(f"[ACTION] Fitting {job_type} to create a seal.")
-            print("[ACTION] Draining water to create dry workspace.")
-            # The Signal Logic
-            signal = "1-2-3"
-            print(f"[SIGNAL] Diver knocks '{signal}'. Safe to open internal valves.")
-            print(f"[REPAIR] Hot-swapping hardware while {self.ship_name} stays afloat.")
-        
-        print(f"STATUS: {job_type} job finished.\n")
+print(f"Improvement: +{improvement} points")
 
-def main():
-    # Initialize the "Floating Hardware"
-    vessel = HullCleaningOperation("MV_Wansaidon_Explorer")
+print("\n" + "=" * 40)
 
-    # 1. Safety First
-    vessel.pre_ops_safety_check()
+# Simple result
+if improvement >= 4:
+    print("🟢 BIG CHANGE")
+    print("The recorded condition improved a lot after cleaning.")
 
-    # 2. Performance Cleaning
-    vessel.run_5_step_cleaning()
+elif improvement >= 2:
+    print("🟠 SOME CHANGE")
+    print("The recorded condition improved after cleaning.")
 
-    # 3. Technical Maintenance (Optional Extra Jobs)
-    vessel.perform_maintenance_audit("Gauges")
-    vessel.perform_maintenance_audit("Plugs")
+else:
+    print("🔵 SMALL CHANGE")
+    print("Only a small change was recorded.")
 
-    print("SYSTEM CHECK: No 'Undo' button in the ocean. All systems optimal.")
+print("\n🔍 QUESTIONS TO EXPLORE")
 
-if __name__ == "__main__":
-    main()
+questions = [
+    "Does heavier growth mean longer cleaning time?",
+    "Which parts of ships need cleaning most often?",
+    "Does waiting longer lead to more marine growth?",
+    "Which vessel types take longer to clean?",
+    "What problems appear most often during inspection?"
+]
+
+for question in questions:
+    print(f"• {question}")
+
+print("\n" + "=" * 40)
+
+print("One vessel tells us a story.")
+print("Many vessels can show us a pattern.")
+
+print("\n⚓ The data can help tell us")
+print("what's happening below the waterline.")
