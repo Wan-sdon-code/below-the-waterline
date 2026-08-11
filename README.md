@@ -14,7 +14,11 @@ That raises a simple question:
 
 > ## **What happens when the bottom of a ship gets dirty --- and what can maintenance data tell us about it?**
 
-------------------------------------------------------------------------
+---
+
+![Below the Waterline](./ship.png)
+
+---
 
 ## 🌊 What's Happening Under the Ship?
 
