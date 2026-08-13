@@ -1,59 +1,56 @@
 # ⚓ Below the Waterline
-# Simple Ship Hull Maintenance Analysis
+# Simple Ship Husbandry Data Check
 # Idea & analysis: Wansaidon
 
 print("⚓ BELOW THE WATERLINE")
-print("Ship Hull Maintenance Check")
+print("What Did the Diver Find?")
 print("=" * 40)
 
-# Example made-up maintenance data
+# Example made-up job record
+
 vessel = "Vessel A"
 days_since_cleaning = 180
-growth_level = "Heavy"
+area = "Hull"
+growth = "Heavy"
 cleaning_hours = 12
 condition_before = 4
 condition_after = 9
 
-print("\n🚢 VESSEL")
-print(vessel)
-
-print("\n📊 MAINTENANCE RECORD")
+print("\n🤿 DIVER INSPECTION")
+print(f"Vessel: {vessel}")
+print(f"Area checked: {area}")
+print(f"Marine growth: {growth}")
 print(f"Days since last cleaning: {days_since_cleaning}")
-print(f"Marine growth: {growth_level}")
+
+print("\n🧹 CLEANING")
 print(f"Cleaning time: {cleaning_hours} hours")
 
-print("\n🔍 CONDITION")
-print(f"Before cleaning: {condition_before}/10")
-print(f"After cleaning:  {condition_after}/10")
+print("\n🔍 BEFORE & AFTER")
+print(f"Before: {condition_before}/10")
+print(f"After:  {condition_after}/10")
 
-# Work out the improvement
+# Work out the change
+
 improvement = condition_after - condition_before
 
-print(f"Improvement: +{improvement} points")
+print(f"Change: +{improvement} points")
 
 print("\n" + "=" * 40)
 
-# Simple result
 if improvement >= 4:
     print("🟢 BIG CHANGE")
-    print("The recorded condition improved a lot after cleaning.")
-
 elif improvement >= 2:
     print("🟠 SOME CHANGE")
-    print("The recorded condition improved after cleaning.")
-
 else:
     print("🔵 SMALL CHANGE")
-    print("Only a small change was recorded.")
 
-print("\n🔍 QUESTIONS TO EXPLORE")
+print("\n📊 QUESTIONS TO CHECK")
 
 questions = [
-    "Does heavier growth mean longer cleaning time?",
-    "Which parts of ships need cleaning most often?",
-    "Does waiting longer lead to more marine growth?",
-    "Which vessel types take longer to clean?",
-    "What problems appear most often during inspection?"
+    "Does heavier growth take longer to clean?",
+    "Which underwater parts need attention most often?",
+    "What gets found during inspections?",
+    "Which vessels normally need more work?"
 ]
 
 for question in questions:
@@ -61,8 +58,8 @@ for question in questions:
 
 print("\n" + "=" * 40)
 
-print("One vessel tells us a story.")
-print("Many vessels can show us a pattern.")
+print("One job gives us one record.")
+print("Many jobs can start showing us a pattern.")
 
-print("\n⚓ The data can help tell us")
-print("what's happening below the waterline.")
+print("\n🤿 Most people see the ship from above.")
+print("The diver sees the part we don't.")
