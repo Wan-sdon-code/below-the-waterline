@@ -1,18 +1,17 @@
-# ⚓ Below the Waterline --- Why Ships Need Cleaning
+# ⚓ Below the Waterline — What Divers See Under a Ship
 
-> **A ship may look perfectly fine from the deck. The interesting part
-> is what you can't see underneath.**
+> **Ship looks clean from above.  
+> But below water... different story already.** 😂
 
-Ships spend a lot of time sitting in seawater.
+Ships spend a lot of time in seawater.
 
-And seawater doesn't exactly leave them alone. 😂
+Over time, marine growth can build up underneath.
 
-Over time, marine growth can build up on the hull and other underwater
-parts.
+**Slime. Barnacles. Fouling.**
 
-That raises a simple question:
+So I started wondering:
 
-> ## **What happens when the bottom of a ship gets dirty --- and what can maintenance data tell us about it?**
+> ## **What does a diver actually see under a ship — and what can the data tell us?**
 
 ---
 
@@ -20,214 +19,138 @@ That raises a simple question:
 
 ---
 
-## 🌊 What's Happening Under the Ship?
+## 🌊 What's Down There?
 
-Think about leaving something underwater for months.
+Marine growth can appear around different underwater parts:
 
-Eventually, things start growing on it.
+**🚢 Hull**
 
-Ships deal with the same problem.
+**⚙️ Propeller**
 
-You may find:
+**🛞 Rudder**
 
-**Slime.**
-
-**Barnacles.**
-
-**Other marine growth.**
-
-The more growth that builds up, the rougher the underwater surface can
-become.
-
-And pushing a rough surface through water isn't ideal.
+**🌊 Sea chest**
 
 Basically:
 
-> **The ship doesn't need extra passengers hanging onto the bottom for
-> free.** 😂
+> **Ship already carrying cargo. Don't need barnacles taking free ride also.** 😂
 
-------------------------------------------------------------------------
+Most of us never see these parts.
 
-## 🧹 So Why Clean It?
+**The diver does.**
 
-Hull cleaning helps remove unwanted marine growth.
+---
 
-The basic idea is simple:
+## 🤿 So What Does the Diver Actually See?
 
-**Inspect → Clean → Check → Record**
+From deck, everything may look okay.
 
-Before cleaning, the underwater condition can be checked.
+Go underwater and maybe different story.
 
-The required cleaning is then carried out by trained professionals using
-suitable equipment and approved procedures.
+That's why inspection matters.
 
-Afterwards, the condition can be checked again.
+A simple job record might look like:
 
-That gives us something very useful:
+**Diver goes down → CCTV / inspect → Find the fouling → Clean if needed → Check again → Record**
 
-**Before and after information.**
+Sometimes it could also include **propeller polishing** or checking other
+underwater parts.
 
-And that's where this becomes interesting from a data point of view.
+Now we have information we can study.
 
-------------------------------------------------------------------------
+---
 
-## 📊 What Could We Track?
+## 📊 What Can We Track?
 
-We could record simple information such as:
+Keep it simple:
 
-**🚢 Vessel**\
-What type of ship is it?
+**🚢 Vessel** — Which ship?
 
-**📅 Last Cleaning**\
-How long has it been since the previous cleaning?
+**📅 Last Cleaning** — How long ago?
 
-**🌿 Marine Growth**\
-What was found on the hull?
+**🌿 Growth** — What was found?
 
-**📍 Area**\
-Where was the growth found?
+**📍 Location** — Where was it found?
 
-**⏱️ Cleaning Time**\
-How long did the job take?
+**⏱️ Cleaning Time** — How long?
 
-**🔍 Condition Before**\
-What did the inspection find?
+**🔍 Before & After** — What changed?
 
-**✅ Condition After**\
-What changed after cleaning?
+One job gives us one record.
 
-**🔧 Other Findings**\
-Was anything unusual noticed during inspection?
+**Many jobs can start showing us a pattern.**
 
-Nothing fancy.
+---
 
-We're simply turning maintenance work into information we can study.
+## 🔍 What Can We Learn?
 
-------------------------------------------------------------------------
+After enough records, we can ask:
 
-## 🔍 What Can We Analyse?
+**Does heavier growth take longer to clean?**
 
-Once enough records are collected, we can start asking questions.
+**Which underwater parts need attention most often?**
 
-**Do ships with heavier growth take longer to clean?**
+**What gets found during inspections?**
 
-**Which underwater areas need attention most often?**
+**Which vessels normally need more work?**
 
-**How does the time between cleanings relate to what is found?**
+Don't anyhow guess lah. 😂
 
-**What problems appear most often during inspection?**
+> **Check the records first.**
 
-**How much work is normally needed for different vessel types?**
+---
 
-**Does the condition improve after cleaning?**
+## 🔧 What If the Diver Finds Something Else?
 
-And if suitable vessel-performance data is available:
+Sometimes an inspection may find more than marine growth.
 
-> **Can we see any change in performance before and after cleaning?**
+Maybe wear.
 
-The important part is not deciding the answer first.
+Maybe damage.
 
-**Check the data and see what it actually says.**
+Maybe something that needs another look.
 
-------------------------------------------------------------------------
+The finding gets recorded and the proper marine team decides what
+happens next.
 
-## 🔧 Cleaning Isn't the Only Reason to Look Underwater
+For this project, I'm interested in:
 
-Underwater inspection can also help identify things that may need
-further attention.
+> **What was found? What changed? What can the records teach us?**
 
-That could include checking the condition of underwater parts or
-spotting possible damage.
+---
 
-But finding something doesn't mean:
+# 🧠 The Simple Idea
 
-> **"Okay bro, YouTube tutorial then repair."** 😂
+**Ship comes in → Diver goes down → Inspect → Clean → Check again → Record**
 
-Underwater ship work is specialised work.
+That's it.
 
-The proper repair method depends on the vessel, the problem, approved
-procedures and the professionals responsible for the job.
+> ## **Above water everything swee swee. Below water? Better check.** 😂
 
-For this project, we're interested in the **information collected**, not
-teaching someone how to carry out the operation.
-
-------------------------------------------------------------------------
-
-## 🦺 What About Safety?
-
-This part is simple:
-
-> **Underwater ship work can be dangerous.**
-
-Real operations require trained personnel, proper planning,
-communication, equipment and approved safety procedures.
-
-This project doesn't try to replace any of that.
-
-It looks at the operation from another angle:
-
-**What can we learn from the records produced by the work?**
-
-------------------------------------------------------------------------
-
-# 🧠 The Whole Project in One Line
-
-**Ship enters water → Marine growth builds up → Hull gets inspected →
-Cleaning happens → Condition gets checked again → Data tells the story**
-
-Instead of simply saying:
-
-> **"The hull was dirty, so we cleaned it."**
-
-We can start asking:
-
-> **How dirty was it? Where? How long did cleaning take? What did we
-> find? What changed afterwards?**
-
-That's where ordinary maintenance records can become useful data.
-
-------------------------------------------------------------------------
-
-# ⚓ The Simple Idea
-
-Most people see the part of a ship above the water.
-
-This project looks at the part we normally don't see.
-
-Not to teach someone how to perform underwater work.
-
-But to understand:
-
-> ## **What is happening below the waterline, and what can the data teach us about maintaining a ship?**
-
-Because sometimes the part you can't see...
-
-**is the part worth looking at.**
-
-------------------------------------------------------------------------
+---
 
 ## 🐍 Python Version
 
-A simple Python file can be used to explore the maintenance data:
-
 [View `ship_husbandry_logic.py`](ship_husbandry_logic.py)
 
-------------------------------------------------------------------------
+---
 
 ## ⚠️ Disclaimer
 
-An educational and data project about underwater ship maintenance. It is
-not an operational or diving guide. Actual work must follow the vessel's
-approved procedures and the requirements of the responsible
-professionals and authorities.
+This is a learning and data project about underwater vessel maintenance.
+
+Commercial diving is specialised work. This project looks at the data
+from the work and is not a diving, cleaning or repair guide.
+
+---
 
 ## ✍️ Credits
 
-**Idea & analysis:** Wansaidon\
+**Idea & analysis:** Wansaidon  
 **Written with:** ChatGPT by OpenAI
 
-------------------------------------------------------------------------
+---
 
-> **You can see the ship above the water.**
+> **Most people see the ship from above.**
 
-***The data can help tell you what's happening underneath.***
+***The diver sees the part we don't.*** 🤿
