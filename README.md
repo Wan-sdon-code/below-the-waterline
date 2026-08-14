@@ -15,7 +15,7 @@ So I started wondering:
 
 ---
 
-![Below the Waterline](./ship.png)
+![Below the Waterline](./belowwater.png)
 
 ---
 
