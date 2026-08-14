@@ -33,7 +33,7 @@ Marine growth can appear around different underwater parts:
 
 Basically:
 
-> **Ship already carrying cargo. Don't need barnacles taking free ride also.** 😂
+> **Ship already carrying cargo. Don't need barnacles also.** 😂
 
 Most of us never see these parts.
 
